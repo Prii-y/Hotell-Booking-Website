@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    background-color: #003580;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.navcont{
+    display: flex;
+    max-width: 1024px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+}
+
+.navbutt{
+    border: none;
+    padding: 5px 10px;
+    color: #003580;
+    margin-left: 20px;
+    cursor: pointer;
+}

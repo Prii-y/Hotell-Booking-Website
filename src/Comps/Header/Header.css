@@ -1,0 +1,116 @@
+.header{
+    background-color: #003580;
+    
+    text-align: left;
+   
+}
+
+.headeritem{
+     display: flex;
+    align-items: center; 
+    gap: 10px;
+    color: white;
+    justify-content: center;
+   
+
+}
+.listmode{
+    padding-bottom: 30px;
+}
+
+.headerdesc{
+    margin: 20px 0px;
+}
+
+.headerbtn{
+    background-color: #0071c2;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    font-weight: 500;
+
+}
+
+.headercont{
+    color: white;
+    margin: 10px 0px;
+    padding: 20px 0px;
+}
+
+.headersearch{
+    background-color: white;
+    display: flex;
+    height: 50px;
+    justify-content:space-around;
+    align-items: center;
+   color: black;
+   border: 3px solid #febb02;
+   border-radius: 5px; 
+   width: 90%;
+   margin: auto;
+   position: relative;
+   top: 25px;
+  
+}
+
+.headersearchitem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0px;
+}
+
+.headericon{
+    color: grey;
+}
+
+.headersearchitem input{
+    border: none;
+    outline: none;
+}
+
+.date{
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+
+.headersearchitem span{
+    cursor: pointer;
+}
+
+.options{
+    border: 1px solid grey;
+    box-shadow: 10% grey;
+    position: absolute;
+    top:50px;
+    background-color: white;
+    width: 30%;
+    z-index: 2;
+    padding: 10px;
+}
+
+.optionsitem{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.guestbutton{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #0071c2;
+    color: #0071c2;
+}
+
+.guestbutton:disabled{
+    cursor: not-allowed;
+}
+
+.searchguestcont{
+    display: flex;
+    align-items: center;
+}

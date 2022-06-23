@@ -1,0 +1,83 @@
+.listcont{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 2% ;
+}
+
+.listsearch{
+    background-color: #febb02;
+    width: 25%;
+    position: sticky;
+    top: 30px;
+    text-align:left;
+    padding: 3px;
+    padding: 2%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: fit-content;
+    /* align-items: center; */
+}
+
+.listsearch>h3{
+text-align: center;
+}
+.destform >input{
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    font-size:medium;
+    width: 100%;
+    padding: 2%;
+}
+
+.dates{
+    margin-top: 10px;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 4px ;
+    padding: 2%;
+}
+.listresult{
+    flex: 3;
+   padding: 0% 5%;
+}
+.listitem{
+    background-color: white;
+    cursor: pointer;
+    border-radius: 4px ;
+    padding: 2%;
+    
+}
+
+.optionscont{
+    background-color: white;
+    border-radius: 4px ;
+    padding: 1%;
+}
+.pricecont>input{
+    width: 100%;
+    background-color: white;
+    border-radius: 4px ;
+    padding: 2%;
+    border: none;
+}
+.calender{
+    width: 100%;
+}
+.rdrmonth{
+    width: fit-content;
+}
+
+.searchbtn{
+    border: none;
+    background-color: #0071c2;
+    width: 100%;
+    color: white;
+    padding: 3%;
+    border-radius: 4px;
+    cursor: pointer;
+}

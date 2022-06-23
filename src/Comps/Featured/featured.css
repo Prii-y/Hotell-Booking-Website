@@ -1,0 +1,24 @@
+.featured{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+.featureditem{
+    height: auto;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    
+}
+
+.featuredimg{
+    width: 100%;
+    object-fit: cover;
+}
+.featuredtitle{
+    position: absolute;
+    bottom: 10px;
+    color: white;
+}
